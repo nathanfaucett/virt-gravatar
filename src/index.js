@@ -15,7 +15,7 @@ module.exports = Gravatar;
 function Gravatar(props, children, context) {
     virt.Component.call(this, props, children, context);
 }
-virt.Component.extend(Gravatar, "Gravatar");
+virt.Component.extend(Gravatar, "virt.Gravatar");
 GravatarPrototype = Gravatar.prototype;
 
 Gravatar.propTypes = {
