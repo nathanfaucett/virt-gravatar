@@ -43,7 +43,7 @@ GravatarPrototype.render = function() {
 
     return (
         virt.createView("img", {
-            className: "gravatar",
+            className: "virt.Gravatar",
             src: src,
             alt: props.email,
             width: props.size,
