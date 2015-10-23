@@ -6,6 +6,7 @@ var virt = require("virt"),
 
 var gravatarUrl = "https://secure.gravatar.com/avatar/",
     isRetina = (environment.window.devicePixelRatio || 1) > 1,
+    Component = virt.Component,
     GravatarPrototype;
 
 
@@ -13,9 +14,9 @@ module.exports = Gravatar;
 
 
 function Gravatar(props, children, context) {
-    virt.Component.call(this, props, children, context);
+    Component.call(this, props, children, context);
 }
-virt.Component.extend(Gravatar, "virt.Gravatar");
+Component.extend(Gravatar, "virt.Gravatar");
 GravatarPrototype = Gravatar.prototype;
 
 Gravatar.propTypes = {
@@ -43,7 +44,7 @@ GravatarPrototype.render = function() {
 
     return (
         virt.createView("img", {
-            className: "virt.Gravatar",
+            className: "virt-Gravatar",
             src: src,
             alt: props.email,
             width: props.size,
