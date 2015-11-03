@@ -15,21 +15,22 @@
     "virt-gravatar.js"
   ],
   "scripts": {
-    "example": "comn -f example/src/index.js -o example/index.js"
+    "example": "comn -f ./example/src/index.js -o ./example/index.js"
   },
   "author": "Nathan Faucett",
   "license": "MIT",
   "readmeFilename": "README.md",
   "devDependencies": {
+    "comn": "git://github.com/nathanfaucett/comn.git",
     "grunt": "^0.4.5",
-    "grunt-contrib-jshint": "^0.10.0",
-    "grunt-jsbeautifier": "^0.2.7",
-    "virt-dom": "git://github.com/nathanfaucett/virt-dom"
+    "grunt-contrib-jshint": "^0.11.3",
+    "grunt-jsbeautifier": "^0.2.10",
+    "virt-dom": "git://github.com/nathanfaucett/virt-dom.git"
   },
   "dependencies": {
-    "md5": "nathanfaucett/md5",
-    "environment": "nathanfaucett/environment",
-    "prop_types": "nathanfaucett/prop_types",
-    "virt": "nathanfaucett/virt"
+    "md5": "git://github.com/nathanfaucett/md5.git",
+    "environment": "git://github.com/nathanfaucett/environment.git",
+    "prop_types": "git://github.com/nathanfaucett/prop_types.git",
+    "virt": "git://github.com/nathanfaucett/virt.git"
   }
 }
