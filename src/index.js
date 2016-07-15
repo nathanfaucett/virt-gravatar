@@ -1,7 +1,7 @@
-var virt = require("virt"),
-    propTypes = require("prop_types"),
-    environment = require("environment"),
-    md5 = require("md5");
+var virt = require("@nathanfaucett/virt"),
+    propTypes = require("@nathanfaucett/prop_types"),
+    environment = require("@nathanfaucett/environment"),
+    md5 = require("@nathanfaucett/md5");
 
 
 var gravatarUrl = "https://secure.gravatar.com/avatar/",

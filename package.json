@@ -1,7 +1,7 @@
 {
-  "name": "virt-gravatar",
+  "name": "@nathanfaucett/virt-gravatar",
   "version": "0.0.1",
-  "description": "virt Gravatar for the browser and node.js",
+  "description": "Gravatars for virt",
   "repository": {
     "type": "git",
     "url": "https://github.com/nathanfaucett/virt-gravatar.git"
@@ -21,16 +21,16 @@
   "license": "MIT",
   "readmeFilename": "README.md",
   "devDependencies": {
-    "comn": "git://github.com/nathanfaucett/comn.git",
-    "grunt": "^0.4.5",
-    "grunt-contrib-jshint": "^0.11.3",
-    "grunt-jsbeautifier": "^0.2.10",
-    "virt-dom": "git://github.com/nathanfaucett/virt-dom.git"
+    "@nathanfaucett/comn": "^0.0.1",
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-jsbeautifier": "^0.2.13",
+    "@nathanfaucett/virt-dom": "^0.0.1"
   },
   "dependencies": {
-    "md5": "git://github.com/nathanfaucett/md5.git",
-    "environment": "git://github.com/nathanfaucett/environment.git",
-    "prop_types": "git://github.com/nathanfaucett/prop_types.git",
-    "virt": "git://github.com/nathanfaucett/virt.git"
+    "@nathanfaucett/md5": "^0.0.1",
+    "@nathanfaucett/environment": "^0.0.1",
+    "@nathanfaucett/prop_types": "^0.0.1",
+    "@nathanfaucett/virt": "^0.0.1"
   }
 }
