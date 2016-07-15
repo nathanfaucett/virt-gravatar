@@ -5,7 +5,6 @@ Gravatars for virt
 
 ```javascript
 var virt = require("@nathanfaucett/virt"),
-    virtDOM = require("@nathanfaucett/virt-dom");,
     Gravatar = require("@nathanfaucett/gravatar");
 
 
