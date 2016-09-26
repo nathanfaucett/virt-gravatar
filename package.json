@@ -1,6 +1,6 @@
 {
   "name": "@nathanfaucett/virt-gravatar",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Gravatars for virt",
   "repository": {
     "type": "git",
@@ -25,12 +25,12 @@
     "grunt": "^1.0.1",
     "grunt-contrib-jshint": "^1.0.0",
     "grunt-jsbeautifier": "^0.2.13",
-    "@nathanfaucett/virt-dom": "^0.0.3"
+    "@nathanfaucett/virt-dom": "^0.0.12"
   },
   "dependencies": {
     "@nathanfaucett/md5": "^0.0.1",
     "@nathanfaucett/environment": "^0.0.2",
     "@nathanfaucett/prop_types": "^0.0.1",
-    "@nathanfaucett/virt": "^0.0.2"
+    "@nathanfaucett/virt": "^0.0.10"
   }
 }

@@ -1,4 +1,4 @@
-virt Modal
+virt Gravatar
 =======
 
 Gravatars for virt
