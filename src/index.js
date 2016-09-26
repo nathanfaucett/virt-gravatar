@@ -1,4 +1,5 @@
 var virt = require("@nathanfaucett/virt"),
+    extend = require("@nathanfaucett/extend"),
     propTypes = require("@nathanfaucett/prop_types"),
     environment = require("@nathanfaucett/environment"),
     md5 = require("@nathanfaucett/md5");
@@ -43,12 +44,12 @@ GravatarPrototype.render = function() {
         src = gravatarUrl + md5(props.email) + "?" + query;
 
     return (
-        virt.createView("img", {
+        virt.createView("img", extend({}, props, {
             className: "virt-Gravatar",
             src: src,
             alt: props.email,
             width: props.size,
             height: props.size
-        })
+        }))
     );
 };

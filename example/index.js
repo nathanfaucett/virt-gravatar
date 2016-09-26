@@ -76,7 +76,7 @@
         }
     };
 
-    global["wgNkkj4w-Rfxt-4SSw-WJ4W-QLpKa8eZBu1fk"] = function(asyncDependencies) {
+    global["5TFofz8D-7OhQ-4Gw4-o1WE-bfCEg7nGbri4K"] = function(asyncDependencies) {
         var i = -1,
             il = asyncDependencies.length - 1,
             dependency, index;
@@ -347,6 +347,7 @@ virtDOM.findEventHandler = require(75);
 function(require, exports, module, undefined, global) {
 /*@=-/var/www/html/node/_virt/virt-gravatar/src/index.js-=@*/
 var virt = require(2),
+    extend = require(26),
     propTypes = require(210),
     environment = require(165),
     md5 = require(140);
@@ -391,13 +392,13 @@ GravatarPrototype.render = function() {
         src = gravatarUrl + md5(props.email) + "?" + query;
 
     return (
-        virt.createView("img", {
+        virt.createView("img", extend({}, props, {
             className: "virt-Gravatar",
             src: src,
             alt: props.email,
             width: props.size,
             height: props.size
-        })
+        }))
     );
 };
 
