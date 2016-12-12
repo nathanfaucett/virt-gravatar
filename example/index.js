@@ -76,7 +76,7 @@
         }
     };
 
-    global["5oG5dHMw-Zl3W-41QS-Escy-qrTgqJfR8BOII"] = function(asyncDependencies) {
+    global["yFzy5EdF-LNXe-4ZEa-J4ON-esnYDAdkEexB2"] = function(asyncDependencies) {
         var i = -1,
             il = asyncDependencies.length - 1,
             dependency, index;
